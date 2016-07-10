@@ -2,9 +2,9 @@ source("Setup_datafiles.R")
 
 # install developer tool and then woe package from gitub
 # refer http://www.r-bloggers.com/r-credit-scoring-woe-information-value-in-woe- package/
-install.packages("devtools")
+#install.packages("devtools")
 library(devtools)
-install_github("tomasgreif/woe")
+#install_github("tomasgreif/woe")
 library(woe)
 # only dependent and independent variable of training set # should be there in data frame
 trnew$CAX_ID<-NULL
